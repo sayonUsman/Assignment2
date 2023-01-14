@@ -6,12 +6,12 @@
 
 /* header style start */
 header{
+    box-sizing: border-box;
     background-color: #FF900E1A;
 }
 
 /* nav-bar style start */
 #nav-bar{
-    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,7 +52,7 @@ header{
 
 #banner-content>p{
     text-align: center;
-    padding: 27px 371px 33px;
+    padding: 27px 375px 33px;
 }
 
 .nirmal-text-design{
@@ -75,11 +75,68 @@ header{
 #banner-content>img{
     width: calc(100% - 290px);
     padding: 51px 145px 47px;
-}
-/* banner content style end */
+}/* banner content style end */
+/* header style end */
 
-@media screen and (min-width: 1920px){
+main{
+    box-sizing: border-box;
+}
+
+/* features section style start */
+#features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#team-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding: 85px 75px 105px 225px;
+}
+
+#features-list{
+    padding-right: 225px;
+}
+
+#features-list>h1{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+#text-color-1{
+    color: #131313;
+}
+
+#text-style-1{
+    color:#FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#features-list>p{
+    padding: 25px 0px 45px;
+}
+/* features section style end */
+
+@media screen and (min-width: 1921px){
+    body{
+        display: flex;
+        justify-content: center;
+        background-color: #FF900E1A;
+    }
+
     header{
         width: 1920px;
-    };
+    }
+
+    main{
+        width: 1920px;
+    }
+
+    footer{
+        width: 1920px;
+    }
 }
