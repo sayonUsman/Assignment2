@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    border: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style start */
+/* nav-bar style start */
+#nav-bar{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 215px 175px;
+}
+
+#nav-bar>h1{
+    color: #131313;
+    font-size: 45px;
+}
+
+#links{
+    box-sizing: border-box;
+}
+
+#links>a{
+    color: #424242;
+    font-size: 18px;
+    text-decoration: none;
+    padding-left: 61px;
+}
+/* nav-bar style end */
