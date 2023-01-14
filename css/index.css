@@ -96,11 +96,11 @@ main{
     padding: 85px 75px 105px 225px;
 }
 
-#features-list{
+#features-content{
     padding-right: 225px;
 }
 
-#features-list>h1{
+#features-content>h1{
     color: #727272;
     font-size: 45px;
     font-weight: 500;
@@ -116,10 +116,54 @@ main{
     font-weight: 700;
 }
 
-#features-list>p{
+#features-content>p{
     padding: 25px 0px 45px;
 }
 /* features section style end */
+
+/* extended features section style start */
+#extended-features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 145px;
+}
+
+#features-title{
+    box-sizing: border-box;
+    width: 585px;
+    height: 107px;
+    color:#131313;
+    font-size: 39px;
+    font-weight: 700;
+    border-left: 10px solid #FF900E;
+    padding: 0px 75px 0px 21px;
+    margin-top: 81px;
+}
+
+#features-description>p{
+    box-sizing: border-box;
+    width: 585px;
+    padding: 25px 0px 27px;
+}
+
+.features-list{
+    box-sizing: border-box;
+    width: 585px;
+    height: 155px;
+    border-radius: 9px;
+    box-shadow: 5px 5px 10px #131313;
+    margin-bottom: 27px;
+    padding: 25px;
+}
+
+.features-list>h1{
+    color: #131313;
+    font-size: 20px;
+    font-weight: 500px;
+    padding-bottom: 25px;
+}
+/* extended features section style end */
 
 @media screen and (min-width: 1921px){
     body{
