@@ -277,7 +277,7 @@ main{
 /* footer section style start */
 footer{
     box-sizing: border-box;
-    width: calc(100%-290);
+    width: calc(100%-290px);
     height: 100px;
     margin: 0px 145px 125px;
     background-color: #FFF4E7;
@@ -291,6 +291,7 @@ footer>p{
 }
 /* footer section style end */
 
+/* exhibition card animation start */
 @keyframes Romp {
     0%{
         transform: rotate(0deg);
@@ -310,6 +311,177 @@ footer>p{
 
     100%{
         transform: rotate(-30deg);
+    }
+}
+/* exhibition card animation end */
+
+@media screen and (max-width:767px){
+   #nav-bar{
+        flex-direction: column;
+        padding: 45px;
+   }
+
+   #nav-bar>h1{
+        font-size: 25px;
+        margin: 0px;
+   }
+
+   #links>a{
+        font-size: 15px;
+        padding-left: 15px;
+   }
+
+   #banner-content>h1{
+        font-size: 33px;
+        text-align: center;
+    }
+
+   #banner-content>p{
+        padding: 27px 15px 33px;
+        text-align: center;
+    }
+
+    .primary-btn{
+        width: 125px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    #banner-content>img{
+        width: calc(100% - 30px);
+        padding: 51px 15px 47px;
+    }
+
+    #features{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #team-img{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 85px 15px 125px;
+    }
+
+    #features-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0px 25px;
+    }
+
+    #extended-features{
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 15px;
+    }
+
+    #features-title{
+        width:100%;
+        height: 21px;
+        color:#131313;
+        font-size: 17px;
+        font-weight: 700;
+        border: none;
+        margin: 34px 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    #features-description>p{
+        box-sizing: border-box;
+        width: calc(100% - 30px);
+        text-align: center;
+    } 
+
+    .features-list{
+        box-sizing: border-box;
+        width: 100%;
+        height: 155px;
+        border-radius: 9px;
+        box-shadow: 5px 5px 10px #131313;
+        margin-bottom: 27px;
+        padding: 15px;
+    }
+
+    .features-list>h1{
+        padding-bottom: 15px;
+    }
+
+    #image-btn>img{
+        width: 100%;
+    }
+
+    #experience-year{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 0px;
+        bottom: 0px;
+        padding: 25px 0px;
+    }
+
+    #experience-year>button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 245px;
+        height: 100px;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #FF900E;
+        border-radius: 9px;
+        font-size: 35px;
+        font-weight: 700;    
+    }
+
+    #experience-year>button>span{
+        font-size: 15px;
+    }
+
+    #facts{
+        padding: 0px 15px;
+    }
+
+    #facts>h1{
+        text-align: center;
+    }
+
+    #facts>p{
+        padding: 25px 15px;
+        text-align: center;
+    }
+
+    #exhibition-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        padding: 0px 15px 0px;
+    }
+
+    #sponsors{
+        margin: 75px 0px 115px;
+        padding: 0px 15px;
+    }
+
+    #sponsors-name{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+    }
+
+    footer{
+        width: calc(100%-30px);
+    }
+
+    footer>p{
+        font-size: 11px;
+        text-align: center;
     }
 }
 
