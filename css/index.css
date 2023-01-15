@@ -238,6 +238,14 @@ main{
 
 .exhibition-card>p{
     color: #727272;
+ }
+ 
+ .exhibition-card:hover>img{
+    animation: Romp 1s linear 0s 1;
+ }
+ 
+ .exhibition-card:hover>h2{
+    animation: Romp 1s linear 1s 1;
  }/* exhibition cards style end */
 /* facts section style end */
 
@@ -282,6 +290,28 @@ footer>p{
     padding-top: 40px;
 }
 /* footer section style end */
+
+@keyframes Romp {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    25%{
+        transform: rotate(30deg);
+    }
+
+    50%{
+        transform: rotate(-30deg);
+    }
+
+    75%{
+        transform: rotate(30deg);
+    }
+
+    100%{
+        transform: rotate(-30deg);
+    }
+}
 
 @media screen and (min-width: 1921px){
     body{
