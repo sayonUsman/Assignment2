@@ -243,7 +243,7 @@ main{
 
 /* sponspors section style start */
 #sponsors{
-    margin: 125px 0px;
+    margin: 125px 0px 115px;
     padding: 0px 145px;
 }
 #sponsors>h1{
@@ -265,6 +265,23 @@ main{
     align-items: center;
 }
 /* sponspors section style end */
+
+/* footer section style start */
+footer{
+    box-sizing: border-box;
+    width: calc(100%-290);
+    height: 100px;
+    margin: 0px 145px 125px;
+    background-color: #FFF4E7;
+    border-radius: 7px;
+}
+
+footer>p{
+    color: #727272;
+    text-align: center;
+    padding-top: 40px;
+}
+/* footer section style end */
 
 @media screen and (min-width: 1921px){
     body{
