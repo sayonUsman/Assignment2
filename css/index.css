@@ -230,15 +230,41 @@ main{
 }
 
 .exhibition-card>h2{
-   font-size: 45px;
-   font-weight: 500;
-   padding: 13px 0px;
+    color: #424242;
+    font-size: 45px;
+    font-weight: 500;
+    padding: 13px 0px;
 }
 
 .exhibition-card>p{
     color: #727272;
  }/* exhibition cards style end */
 /* facts section style end */
+
+/* sponspors section style start */
+#sponsors{
+    margin: 125px 0px;
+    padding: 0px 145px;
+}
+#sponsors>h1{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#sponsors>p{
+    color: #727272;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 65px;
+}
+
+#sponsors-name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* sponspors section style end */
 
 @media screen and (min-width: 1921px){
     body{
