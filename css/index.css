@@ -195,6 +195,51 @@ main{
 }/* experience year button style end */
 /* extended features section style end */
 
+/* facts section style start */
+#facts{
+    padding: 0px 145px; 
+}
+
+#facts>h1{
+    font-size: 45px;
+}
+
+#facts>p{
+    padding: 25px 0px 75px;
+    color: #727272;
+}
+
+/* exhibition cards style start */
+#exhibition-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 55px 0px;
+}
+
+.exhibition-card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 241px;
+    height: 241px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+
+.exhibition-card>h2{
+   font-size: 45px;
+   font-weight: 500;
+   padding: 13px 0px;
+}
+
+.exhibition-card>p{
+    color: #727272;
+ }/* exhibition cards style end */
+/* facts section style end */
+
 @media screen and (min-width: 1921px){
     body{
         display: flex;
